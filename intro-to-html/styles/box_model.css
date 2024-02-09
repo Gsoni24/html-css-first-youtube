@@ -1,0 +1,102 @@
+.back
+{
+    padding-left:13px;
+    padding-right: 13px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.next
+{
+    padding-left:13px;
+    padding-right: 13px;
+    padding-top:10px;
+    padding-bottom:10px; 
+}
+.page1
+{
+    margin-left:10px;
+}
+.page2
+{
+    margin-left:10px;
+}
+.page3
+{
+    margin-left:10px;
+}
+.page4
+{
+    margin-left:10px;
+}
+.page5
+{
+    margin-left:10px;
+    margin-right:10px;
+}
+.stretch
+{
+    background-color:green;
+    color:white;
+    padding-left:11px;
+    padding-right: 11px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-left: 10px;
+    transition:padding-left 0.2s,padding-right 0.2s,padding-top 0.2s,padding-bottom 0.2s;
+    vertical-align:top;
+    border:none;
+}
+.stretch:hover
+{
+    cursor:pointer;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.shadow
+{
+    background-color:green;
+    color:white;    
+    padding-left:13px;
+    padding-right: 13px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:10px;
+    transition:box-shadow 0.2s;
+    border:none;
+    font-size:15px;
+    vertical-align:top;
+}
+.shadow:hover
+{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    cursor:pointer;
+}
+.shadow:active
+{
+    box-shadow:none;
+    margin-left:13px;
+    margin-top:3px;
+}
+.expand
+{
+    background-color: green;
+    color:white;
+    padding-left:13px;
+    padding-right: 13px;
+    padding-top:8px;
+    padding-bottom:8px; 
+    font-size:15px;
+    margin-left:13px;
+    margin-right:13px;
+}
+.expand:hover
+{
+    cursor:pointer;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:6px;
+    margin-right:6px;
+}

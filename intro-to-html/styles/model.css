@@ -1,0 +1,17 @@
+p
+{
+    font-family:Montserrat;
+    margin-top:0;
+    margin-bottom:0;
+}
+.name
+{
+    text-align:center;
+    font-size:50px;
+}
+.description
+{
+    text-align:center;
+    font-size:25px;
+    margin-top:20px;
+}

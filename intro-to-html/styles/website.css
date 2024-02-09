@@ -1,0 +1,50 @@
+.link:hover
+{
+    color:rgb(216, 3, 3);
+}
+.run
+{
+    color:black;
+    font-size:35px;
+    font-weight:bold;
+}
+.now
+{
+    color:rgb(0, 113, 0);
+    font-weight:bold;
+}
+.cart
+{
+    background-color:rgb(255, 216, 20);
+    color:black;
+    border-radius:17px;
+    height:34px;
+    width:110px;
+    border:none;
+}
+.cart:hover
+{
+    background-color:rgb(228, 191, 6);
+}
+.cart:active
+{
+    opacity:0.6;
+}
+.buy
+{
+    background-color:rgb(255, 164, 28);
+    color:black;
+    border-radius:17px;
+    height:34px;
+    width:110px;
+    border:none;
+    margin-left:10px;
+}
+.buy:hover
+{
+    background-color:rgb(190, 116, 4);
+}
+.buy:active
+{
+    opacity:0.6;
+}

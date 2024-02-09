@@ -1,0 +1,160 @@
+
+.thumbnail-1
+{
+    width:100%;
+
+}
+
+.video-title-1
+{
+   margin-top:0;
+   font-weight:500;
+   line-height:16px;
+   font-size:14px;
+   color:black;
+   text-decoration: none;
+}
+
+.video-info-grid
+{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.video-author,.video-stats
+{
+    color:rgb(114, 114, 114);
+    font-size:12px;
+
+}
+.video-author
+{
+    margin-top:10px;
+    margin-bottom:4px;
+}
+
+.channel-1-profile
+{
+    width:36px;
+    border-radius:50px;
+}
+.thumbnail-row
+{
+    margin-bottom:9px;
+    position:relative;
+}
+.video-time
+{
+    position:absolute;
+    bottom:11px;
+    right:4px;
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    font-size:12px;
+    padding:4px;
+    border-radius:3px;
+    border:none;
+    font-weight:500;
+}
+
+.video-grid
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px)
+{
+    .video-grid
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px)
+{
+    .video-grid
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .video-title-1
+    {
+        font-size:14px;
+        line-height: 20px;
+    }
+    .video-author,.video-stats
+    {
+        font-size:13px;
+    }
+}
+
+
+
+.channel-picture
+{
+    position:relative;
+    cursor:pointer;
+}
+
+.channel-picture .channel-picture-toolkit
+{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    box-shadow:0 1px 3px rgba(0,0,0,0.9);
+    background-color: rgba(255,255,255,0.9);
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    pointer-events: none;
+    white-space: nowrap;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius: 5px;
+    z-index:40;
+    transition: 0.15s;
+}
+.channel-picture:hover .channel-picture-toolkit
+{
+    opacity:1;
+}
+
+.toolkit-picture
+{
+    width:50px;
+    border-radius:50px;
+}
+.toolkit-about
+{
+    margin-left:5px;
+    font-family:Roboto,Arial;
+}
+
+.toolkit-name
+{
+    font-weight: 700;
+    margin-bottom:5px;
+}
+
+.toolkit-subscribers
+{
+    color:grey;
+    font-size:13px;
+}
